@@ -1,6 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import './index.css'
 
-const App = ()=> 'hello world';
+class Main extends Component {
+    render() {
+        return (
+            <div className='white'>
+                dawk
+            </div>
+        );
+    }
+}
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('root'));

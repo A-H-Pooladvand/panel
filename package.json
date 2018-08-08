@@ -8,9 +8,12 @@
     "postcss-scss": "^2.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "sass": "^1.10.3"
   },
   "scripts": {
+    "dev": "sass resources/assets/admin/_init.scss src/index.css",
+    "watch": "sass --watch resources/assets/admin/_init.scss src/index.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
