@@ -1,0 +1,28 @@
+html,
+body,
+#root,
+#root > .container-fluid {
+  height: 100%;
+}
+
+
+body {
+  font-family: Vazir, sans-serif;
+  text-align: right;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: $teal;
+
+  &:hover {
+    color: lighten($teal, 10);
+  }
+}

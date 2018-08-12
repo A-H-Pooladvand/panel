@@ -1,2 +1,9 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
+
+@import "../../../node_modules/vazir-font/dist/font-face.css";
+
+
+
+@import "components/setup";
+@import "components/sidebar";

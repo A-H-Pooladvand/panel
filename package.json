@@ -4,16 +4,18 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
+    "bootstrap-v4-rtl": "^4.1.1-0",
     "postcss-import": "^12.0.0",
     "postcss-scss": "^2.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
-    "sass": "^1.10.3"
+    "sass": "^1.10.3",
+    "vazir-font": "^19.0.0"
   },
   "scripts": {
-    "dev": "sass resources/assets/admin/_init.scss src/index.css",
-    "watch": "sass --watch resources/assets/admin/_init.scss src/index.css",
+    "dev": "sass resources/assets/admin/_init.scss src/assets/css/index.css",
+    "watch": "sass --watch resources/assets/admin/_init.scss src/assets/css/index.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

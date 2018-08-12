@@ -5,6 +5,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import "../../../node_modules/vazir-font/dist/font-face.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8609,6 +8610,55 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+html,
+body,
+#root,
+#root > .container-fluid {
+  height: 100%;
+}
+
+body {
+  font-family: Vazir, sans-serif;
+  text-align: right;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #00D1B2;
+}
+a:hover {
+  color: #05ffda;
+}
+
+.panel--container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.panel--container .sidebar {
+  width: 20%;
+  background-color: #354458;
+  color: #fff;
+}
+.panel--container .sidebar > li {
+  border-bottom: 1px solid #ced4da;
+}
+.panel--container .sidebar > li a {
+  padding: 0.5rem;
+  width: 100%;
+  display: block;
+}
+.panel--container .mainbar {
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
