@@ -1,20 +1,38 @@
 import React, {Component} from 'react';
+import ListItem from "./ListItem";
 
 export default class UnorderedList extends Component {
 
     constructor(props) {
         super(props);
+        this.createUnorderedList = this.createUnorderedList.bind(this);
+    }
 
-        this.state = {
-            listItems: this.props.listItems.map((listItem) =>
-                <li key={listItem.id}>
-                    <a href="#">{listItem.title}</a>
-                </li>
-            )
+
+    createUnorderedList(listItems, className) {
+        let lists = [];
+
+        if (! listItems) {
+            return null;
         }
+
+        listItems.map((listItem) => {
+            lists.push(
+                <ListItem
+                    key={listItem.id}
+                    uniqueKey={listItem.id}
+                    href={listItem.link}
+                    anchorValue={listItem.title}
+                    subs={listItem.children && this.createUnorderedList(listItem.children, listItem.children[0].className)}
+                    icon={listItem.icon}
+                />
+            );
+        });
+
+        return (<ul className={className}>{lists}</ul>);
     }
 
     render() {
-        return <ul className={this.props.className}>{this.state.listItems}</ul>
+        return (this.createUnorderedList(this.props.listItems, this.props.className))
     }
 }

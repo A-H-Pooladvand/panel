@@ -2,11 +2,50 @@
   "data": [
     {
       "id": "1",
-      "title": "داشبورد"
+      "title": "داشبورد",
+      "icon": "home",
+      "is_disable": true,
+      "is_visible": true,
+      "link": "#",
+      "children": [
+        {
+          "id": "22",
+          "className": "sub-menu",
+          "title": "چارت",
+          "icon": "",
+          "is_disable": true,
+          "is_visible": true,
+          "link": "#"
+        }
+      ]
     },
     {
       "id": "2",
-      "title": "کاربران"
+      "title": "کاربران",
+      "icon": "user",
+      "is_disable": true,
+      "is_visible": true,
+      "link": "#",
+      "children": [
+        {
+          "id": "21",
+          "title": "افزودن کاربر",
+          "className": "sub-menu",
+          "icon": "",
+          "is_disable": true,
+          "is_visible": true,
+          "link": "#"
+        },
+        {
+          "id": "22",
+          "title": "لیست کاربران",
+          "className": "sub-menu",
+          "icon": "",
+          "is_disable": true,
+          "is_visible": true,
+          "link": "#"
+        }
+      ]
     }
   ]
 }

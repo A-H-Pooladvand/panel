@@ -24,5 +24,6 @@ a {
 
   &:hover {
     color: lighten($teal, 10);
+    border-left: 3px solid $teal;
   }
 }

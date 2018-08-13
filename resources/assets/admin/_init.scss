@@ -1,9 +1,13 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
-
 @import "../../../node_modules/vazir-font/dist/font-face.css";
 
-
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+$fa-font-path: "./webfonts";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
 
 @import "components/setup";
+@import "components/helpers";
 @import "components/sidebar";
