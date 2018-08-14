@@ -11,6 +11,7 @@
 
     > li {
       border-bottom: 1px solid $gray-600;
+      overflow: hidden;
 
       a {
         padding: 0.5rem;
@@ -24,6 +25,7 @@
       }
 
       .sub-menu {
+        height: 0;
 
         li {
 

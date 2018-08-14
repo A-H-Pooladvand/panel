@@ -13511,6 +13511,7 @@ a:hover {
 }
 .panel--container .sidebar > li {
   border-bottom: 1px solid #6c757d;
+  overflow: hidden;
 }
 .panel--container .sidebar > li a {
   padding: 0.5rem;
@@ -13520,6 +13521,9 @@ a:hover {
 }
 .panel--container .sidebar > li a:hover {
   color: #00D1B2;
+}
+.panel--container .sidebar > li .sub-menu {
+  height: 0;
 }
 .panel--container .sidebar > li .sub-menu li a {
   padding-right: 2.2rem;
