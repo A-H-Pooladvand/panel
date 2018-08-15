@@ -22,3 +22,4 @@ yarn-error.log*
 
 # Custom
 .idea
+public/files/pictures/_test

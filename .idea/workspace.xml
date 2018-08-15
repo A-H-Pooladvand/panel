@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d3b59f3-4937-4967-9b48-018afccddd20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/pictures/_test/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/admin/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/admin/components/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mohammad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mohammad.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/admin/_init.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/admin/_init.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/admin/components/setup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/admin/components/setup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UnorderedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UnorderedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,7 +60,7 @@
     <session id="1769870916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="4" />
@@ -93,6 +71,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="6" />
           <entry key="js" value="20" />
           <entry key="json" value="13" />
@@ -108,6 +87,7 @@
           <entry key="HTML" value="6" />
           <entry key="JSON" value="12" />
           <entry key="JavaScript" value="20" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="31" />
           <entry key="Sass" value="1" />
           <entry key="SourceMap" value="1" />
@@ -118,6 +98,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1" />
+          <entry key="gitignore" value="3" />
           <entry key="html" value="71" />
           <entry key="js" value="7306" />
           <entry key="json" value="372" />
@@ -131,6 +112,7 @@
           <entry key="HTML" value="71" />
           <entry key="JSON" value="372" />
           <entry key="JavaScript" value="7306" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="1174" />
           <entry key="Sass" value="5" />
         </counts>
@@ -139,7 +121,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -147,6 +129,15 @@
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -239,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/components/Image.js" />
         <option value="$PROJECT_DIR$/resources/assets/admin/components/navbar.scss" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -300,7 +292,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -350,13 +342,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76422000" />
+    <option name="totallyTimeSpent" value="76496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1917" y="180" width="1606" height="903" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.329375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -370,7 +361,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46919432" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46919432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -554,6 +545,13 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
