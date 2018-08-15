@@ -6,6 +6,7 @@ export default class Anchor extends Component {
             <a href={this.props.href}>
                 {this.props.icon && <i className={`fas fa-${this.props.icon} list-fw`}/>}
                 {this.props.value}
+                {this.props.children}
             </a>
         );
     }
