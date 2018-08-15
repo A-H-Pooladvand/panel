@@ -1,5 +1,6 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
+@import "functions";
 @import "../../../node_modules/vazir-font/dist/font-face.css";
 
 @import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
@@ -11,3 +12,4 @@ $fa-font-path: "./webfonts";
 @import "components/setup";
 @import "components/helpers";
 @import "components/sidebar";
+@import "components/navbar";

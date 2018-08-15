@@ -16,7 +16,7 @@ export default class UnorderedList extends Component {
             return null;
         }
 
-        listItems.map((listItem) => {
+        listItems.forEach((listItem) => {
             lists.push(
                 <ListItem
                     key={listItem.id}

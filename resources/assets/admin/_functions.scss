@@ -1,0 +1,7 @@
+@function dep-color($color) {
+  @if (lightness($color) > 50) {
+    @return $primary; // Lighter backgorund, return dark color
+  } @else {
+    @return #fff; // Darker background, return light color
+  }
+}
